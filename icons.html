@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الخدمات الطلابية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('mans.png'); /* هنا يتم إضافة الخلفية */
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .icons-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            text-align: center;
+        }
+        .icon {
+            background-color: #666;
+            border-radius: 10px;
+            padding: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .icon:hover {
+            background-color: #888;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+<img src="mans5.png" alt="جامعة المنصورة" class="logo">
+
+<div class="icons-container">
+    <div class="icon">رغبات التشعيب</div>
+    <div class="icon">مقرراتي</div>
+    <div class="icon">مقررات اختيارية</div>
+    <div class="icon">بريد الجامعة</div>
+    <div class="icon" onclick="window.location.href='result.html'">النتائج</div>
+    <div class="icon">الخدمات</div>
+</div>
+
+</body>
+</html>
